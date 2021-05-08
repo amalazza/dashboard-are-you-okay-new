@@ -4,10 +4,10 @@ from django import forms
 from .models import Pertanyaan
 
 class PertanyaanModelForm(forms.ModelForm):
-    judul = forms.CharField(
+    pertanyaan = forms.CharField(
         widget=forms.TextInput(
             attrs={
-                "placeholder" : "Judul",                
+                "placeholder" : "Pertanyaan",                
                 "class": "form-control"
             }
         ))

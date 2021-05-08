@@ -14,6 +14,7 @@ urlpatterns = [
     path("", include("app.urls")),             # UI Kits Html files
     # path('artikel',include('artikel.urls')), 
     path("layanan/kuesioner/pertanyaan/", include("pertanyaan.urls")), 
+    path("layanan/kuesioner/jawaban/", include("jawaban.urls")), 
 
 
 ]

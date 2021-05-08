@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'app',
     # 'artikel',
     'pertanyaan',
+    'jawaban',
     'rest_framework',
 ]
 
