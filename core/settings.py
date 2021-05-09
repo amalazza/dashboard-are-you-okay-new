@@ -78,16 +78,50 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql_psycopg2",
+#         "NAME": "d54mte1c3drmo3",
+#         "USER": "ftkzizxjxwxrnr",
+#         "PASSWORD": "31c35ca724dda1276c18ce79c8dd64a35e7c9d42961592eee4a4f31bc384843d",
+#         "HOST": "ec2-3-234-85-177.compute-1.amazonaws.com",
+#         "PORT": "5432",
+#     }
+# }
+
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "d54mte1c3drmo3",
-        "USER": "ftkzizxjxwxrnr",
-        "PASSWORD": "31c35ca724dda1276c18ce79c8dd64a35e7c9d42961592eee4a4f31bc384843d",
-        "HOST": "ec2-3-234-85-177.compute-1.amazonaws.com",
+        "NAME": "dcgkhehqdt5kbo",
+        "USER": "fvxekovyyewzkb",
+        "PASSWORD": "09623c5f8880b21106f1ee19da001af2dda6760a298cf95e23fef9098f345b74",
+        "HOST": "ec2-184-73-198-174.compute-1.amazonaws.com",
         "PORT": "5432",
     }
 }
+
+
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql_psycopg2",
+#         "NAME": "areyouokay",
+#         "USER": "postgres",
+#         "PASSWORD": "malacantik",
+#         "HOST": "localhost",
+#         "PORT": "1683",
+#     }
+# }
+
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.postgresql_psycopg2",
+#         "NAME": "areyouokay",
+#         "USER": "root",
+#         "PASSWORD": "",
+#         "HOST": "localhost",
+#         "PORT": "3306",
+#     }
+# }
 
 
 # Password validation
